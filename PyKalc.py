@@ -1,11 +1,4 @@
 import customtkinter as ctk
-import sys
-import os
-
-if getattr(sys, 'frozen', False):
-    icon_path = os.path.join(sys._MEIPASS, "icon.ico")
-else:
-    icon_path = "icon.ico"
 
 # Set the app to dark theme
 ctk.set_appearance_mode("dark")
@@ -16,7 +9,6 @@ class PyKalc(ctk.CTk):
         self.title("PyKalc")
         self.geometry("350x550")
         self.resizable(False, False)
-        self.iconbitmap(icon_path)
 
         # Config on how the grid works
         self.grid_columnconfigure((0, 1, 2, 3), weight=1)
