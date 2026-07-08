@@ -17,12 +17,13 @@ A clean, dark-mode calculator built with Python and CustomTkinter.
 
 **Option 1 - As Python Script**
 ```bash
-pip install -r requirements.txt
-python PyKalc.py
+1. pip install -r requirements.txt
+2. python PyKalc.py
 ```
 
 **Option 2 - Standalone Executable**
-Download the latest `.exe` from [Releases](../../releases) and run it.
+
+1. Download the latest `.exe` from [Releases](../../releases) and run it.
 
 ## 🛠️ Tech Stack
 - Python
