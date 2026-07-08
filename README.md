@@ -17,7 +17,7 @@ A clean, dark-mode calculator built with Python and CustomTkinter.
 
 **Option 1 - As Python Script**
 ```bash
-pip install customtkinter
+pip install -r requirements.txt
 python PyKalc.py
 ```
 
